@@ -14,7 +14,7 @@ public class MainMenu extends JPanel {
             // This will look for "menu_bg.png" in your project root
             background = ImageIO.read(new File("menu_bg.png"));
         } catch (Exception e) {
-            System.out.println("Menu background not found, using dark color.");
+            System.out.println("Menu background not found");
         }
 
         this.setLayout(new GridBagLayout());
